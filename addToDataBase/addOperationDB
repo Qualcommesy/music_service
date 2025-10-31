@@ -1,0 +1,94 @@
+SERVER = 'mysql-ru-br2.joinserver.xyz'
+DATABASE = 's252266_Hakaton'
+USERNAME = 'u252266_UemnEZfUmO'
+PASSWORD = 'Nn7EANEQ+M79lCxI=wgzR5Ya'
+
+import mysql.connector
+
+cnx = mysql.connector.connect(user=USERNAME, password=PASSWORD,
+                              host=SERVER,
+                              database=DATABASE)
+cursor = cnx.cursor()
+
+query = cnx.cursor()
+
+query = ('''
+CREATE TABLE IF NOT EXISTS Users(
+id INTEGER PRIMARY KEY,
+login NVARCHAR(100) NOT NULL,
+password NVARCHAR(100) NOT NULL,
+)
+''')
+
+cursor.execute(query)
+
+cnx.commit()
+cnx.close()
+cnx.close()
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+addOperationDB[+] [unix] (17:17 31/10/2025)                                                                                                                                                                                                                             7,1 All
+-- INSERT --
+
