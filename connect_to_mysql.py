@@ -1,5 +1,3 @@
-#logger для подключения к БД
-
 import logging
 import time
 import mysql.connector
