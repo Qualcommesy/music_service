@@ -131,7 +131,7 @@ class BetaLogin:  # Экран входа
             messagebox.showerror("Ошибка", "Пожалуйста, заполните все поля")
             return
 
-        # Авторизация пользователя.
+    # Авторизация пользователя.
         if pass_user(email, password) == True:
             messagebox.showinfo('Успешно вошел.')
         elif pass_user(email, password) == False:
