@@ -15,7 +15,7 @@ cursor = cnx.cursor()
 
 # Этот запрос создает таблицы в базе даных.
 query = ('''
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE IF NOT EXISTS usersly (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
