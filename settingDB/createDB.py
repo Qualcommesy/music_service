@@ -1,7 +1,7 @@
-SERVER = 'localhost'
-DATABASE = 'music_service'
-USERNAME = 'root'
-PASSWORD = '#589TgF90!$sHA_209'
+SERVER = 'mysql.joinserver.xyz'
+DATABASE = 's410037_NKEiVT3'
+USERNAME = 'u410037_k64ns7mW31'
+PASSWORD = 'gZxp@ULU.7.s+UGxvbA8M@4D'
 
 import mysql.connector
 
